@@ -1,0 +1,155 @@
+//Primer video:
+var edad = 19;
+edad++;
+
+var punto_flotantes = 12.5;
+
+
+/*
+Operadores aritémeticos 
+División = /
+Multiplicación = *
+Suma = +
+Resta = -
+Módulo = %
+*/
+
+var resultado_suma = edad + punto_flotantes;
+var resultado_suma = edad - punto_flotantes;
+var resultado_suma = edad * 2;
+var resultado_suma = edad / 2;
+var resultado_suma = edad % 2;
+
+console.log(edad + 3);
+console.log(edad + punto_flotantes);
+console.log(resultado_suma);
+console.log(es_par(2));
+
+function es_par(numero){
+  if(numero % 2 == 0){
+    return true;
+  }
+  return false;
+}
+
+console.log(math.pow(2,3));
+console.log(math.round(0.9));
+console.log(math.ceil(0.6));
+console.log(math.floor(0.3));
+console.log(math.PI);
+console.log(math.random());
+console.log(math.sqrt(4
+
+//Segundo Video
+var nombre = "Uriel";
+
+var cadena = "Hola mundo";
+//var cadena = "Hola "+ nombre;
+
+//var resultado = cadena.indexOf("CódigoFacilito");
+
+console.log(cadena);
+console.log(cadena.lenght);
+//console.log(resultado);
+/*
+if(nombre.indexOf("Uriel") != -1){
+  console.log("Eres el tutor del curso")
+}else{
+  console.log("No eres el tutor del curso")
+}
+*/
+console.log(nombre.indexOf("Uriel"));
+console.log(nombre[2]);
+console.log(nombre[nombre.lenght -1]);
+console.log(nombre.charAt(1));
+
+nombre = nombre.replace("U","A");
+console.log(nombre);
+
+console.log(nombre.slice(2,3));
+console.log(nombre.toUpperCase());
+console.log(nombre.toLowerCase());
+
+//Tecer Video
+var numero_uno = 23;
+
+var numero_dos = 30;
+
+if(numero_uno > numero_dos){
+  console.log("Entre al bloque");
+}
+
+if(numero_dos > numero_uno){
+  console.log("Entre al bloque");
+}
+
+if(numero_uno < numero_dos){
+  console.log("Entre al bloque");
+}
+
+if(!(numero_uno > numero_dos)){
+  console.log("Entre al bloque");
+}
+
+if(!(numero_uno < numero_dos)){
+  console.log("Entre al bloque");
+}
+
+if(numero_uno && true){
+  console.log("Entre al bloque");
+}
+
+if(numero_uno && false){
+  console.log("Entre al bloque");
+}
+
+if(true && true){
+  console.log("Entre al bloque");
+}
+
+if(false || false){
+  console.log("Entre al bloque");
+}
+
+if(numero_uno == numero_dos){
+  console.log("Entre al bloque");
+}
+
+if(numero_uno === numero_dos){
+  console.log("Entre al bloque");
+}
+
+if(numero_uno != numero_dos){
+  console.log("Entre al bloque");
+}
+
+if(numero_uno !== numero_dos){
+  console.log("Entre al bloque");
+}
+
+if(true){
+  console.log("La condición fue verdadera");
+  
+}
+if(!false){
+  console.log("La condición fue verdadera");
+  
+}
+
+}else if(false){
+
+}
+else{
+  console.log(":P");
+}
+
+//bool -> true / false
+
+/* Operadores lógicos */
+// > Mayor que
+// < Menor que
+// || OR
+// && AND
+// == === igual a 
+// != !== diferente de
+// !
