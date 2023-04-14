@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tittle>Tarea 7</tittle>
+</head>
+
+<body>
+ 
+<h1>Tarea 7 de Sergio Ferrau Patiño - 8862940</h1>
+
+<p>EjercicioCompuesto</p>
+<button onclick="EjercicioCompuesto()">EjercicioCompuesto</button>
+
+<p>EjercicioAnidada</p>
+<button onclick="EjercicioAnidada()">EjercicioAnidada</button>
+
+ <script>
+//(((5>=5)!= (9<10))||(10>10)==false))
+    function EjercicioCompuesto(){
+        if((((5 >= 5) != (9 < 10)) || (10 > 10) == (false))){
+            alert("TRUE")
+        }else{
+            alert("FALSE")
+        }
+    }
+
+    function EjercicioAnidada(){
+        if((5 >= 5) != (9 < 10)){
+            if((10 > 10) == (false)){
+                    alert("TRUE")
+                }else{
+                    alert("FALSE")
+                }
+            }else{
+                    if((10 > 10) == (false)){
+                        alert("TRUE")
+                    }else{
+                        alert("FALSE")
+                    }
+             }
+         }
+                
+
+ </script>   
+
+</body>
+</html>
